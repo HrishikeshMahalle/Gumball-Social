@@ -1,0 +1,43 @@
+.Profilepic-cont {
+  width: 23%;
+  background-color: #f2f7fb;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+.notification span {
+  color: rgb(18, 9, 97);
+  padding: 0.3rem;
+  transition: 300ms;
+}
+.notification span:hover {
+  color: cyan;
+  background-color: rgb(18, 9, 97);
+  border-radius: 0.5rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.profile .name {
+  font-weight: 500;
+}
+
+.profile img {
+  margin-left: 3rem;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+}
