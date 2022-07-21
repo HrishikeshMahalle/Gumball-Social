@@ -1,0 +1,13 @@
+.stories-cont {
+  height: 10%;
+  width: 95%;
+  color: red;
+  border-radius:1rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  align-items: center;
+}
+

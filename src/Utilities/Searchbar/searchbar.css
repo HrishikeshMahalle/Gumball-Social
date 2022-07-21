@@ -1,0 +1,37 @@
+.Searchbar-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 23%;
+  background-color: #f2f7fb;
+  padding: 0.5rem;
+  color: black;
+}
+.darkmode {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  transition: 300ms;
+}
+.darkmode:hover {
+  font-size: 1.5rem;
+  color: cyan;
+  background-color: rgb(18, 9, 97);
+  border-radius: 0.5rem;
+}
+.searchbar-bar input {
+    margin-left: 2rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  transition: 300ms;
+  border: none;
+  outline: none;
+  background: #e9f0f4;
+  border: 2px solid rgb(198, 190, 190);
+  width: 80%;
+}
+
+.searchbar-bar input:focus {
+  transition: 300ms;
+  border: 2px solid rgb(18, 9, 97);
+}

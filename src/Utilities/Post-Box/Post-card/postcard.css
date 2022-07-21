@@ -1,0 +1,90 @@
+.postcard-cont {
+  background-color: #ffffff;
+  width: 90%;
+  min-height: 45%;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 9px 2px #959596;
+  display: flex;
+}
+.postcard-img {
+  border: solid green 1px;
+  width: 48%;
+  border-radius: 1rem;
+}
+.postcard-img img {
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1/1;
+  image-rendering: auto;
+  border-radius: 1rem;
+}
+.postcard-det {
+  width: 52%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-caption-head {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 80%;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.post-caption-tags {
+    width: 80%;
+    height: 20%;
+    word-wrap: break-word;
+    display:
+}
+.post-caption-tags text {
+    background-color: #022f96;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.25em;
+    font-size: 10px;
+    margin: 0.2rem;
+    
+}
+
+.post-caption-user {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.post-caption-user .name {
+  font-weight: 500;
+}
+.post-caption-user img {
+  margin-left: 3rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.post-caption-act {
+  background-color: #f2f7fb;
+  width: 80%;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.3rem;
+  border-radius: 0.5rem;
+}
+.post-caption-icons {
+  padding: 0.3rem;
+  color: rgb(62, 65, 65);
+  border-radius: 0.4rem;
+  transition: 300ms;
+}
+.post-caption-icons:hover {
+  background-color: rgb(18, 9, 97);
+  color: cyan;
+}

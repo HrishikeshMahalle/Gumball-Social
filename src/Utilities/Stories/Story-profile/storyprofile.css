@@ -1,0 +1,11 @@
+.stories-item {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px #1754d5 solid;
+  margin-left: 0.5rem;
+}
+.stories-item img {
+  height: 100%;
+  width: 100%;
+}
