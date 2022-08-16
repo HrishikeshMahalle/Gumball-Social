@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { HiOutlineHome } from "react-icons/hi";
 import { AiOutlineLogin } from "react-icons/ai";
 import "./navbar.css";
