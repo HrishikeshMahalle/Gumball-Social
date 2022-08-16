@@ -28,26 +28,24 @@
   align-items: center;
 }
 .post-caption-head {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   width: 80%;
   font-weight: 600;
   font-size: 1.5em;
 }
 
 .post-caption-tags {
-    width: 80%;
-    height: 20%;
-    word-wrap: break-word;
-    display:
+  width: 80%;
+  height: 20%;
+  word-wrap: break-word;
 }
-.post-caption-tags text {
-    background-color: #022f96;
-    color: white;
-    border-radius: 0.5rem;
-    padding: 0.25em;
-    font-size: 10px;
-    margin: 0.2rem;
-    
+.post-caption-tags span {
+  background-color: #022f96;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.25em;
+  font-size: 10px;
+  margin: 0.2rem;
 }
 
 .post-caption-user {

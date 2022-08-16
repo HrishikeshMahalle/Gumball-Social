@@ -9,14 +9,14 @@
 }
 ::-webkit-scrollbar {
   width: 1px;
-  height: 1px;
+  height: 3px;
 }
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 0.5rem;
   font-size: 0.5rem;
-  height: 5px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {

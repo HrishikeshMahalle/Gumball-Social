@@ -1,20 +1,29 @@
 import "./App.css";
-import { Friends } from "./Components/Friends/friends";
-import { Header } from "./Components/Header/header";
-import { Home } from "./Components/Home/home";
-import { Post } from "./Components/Post/post";
+import { Routes, Route } from "react-router-dom";
+
+import { Login } from "./Components/AuthComp/login/login";
+import { Mastercomp } from "./Components/MasterComp/Mastercomp";
+import Signup from "./Components/AuthComp/Signup/signup";
+import { RequireAuth } from "./Context/RequireAuth/requireAuth";
 
 function App() {
   return (
     <div className="App-container">
-      <div className="App-header">
-        <Header/>
-      </div>
-      <div className="App">
-        <Friends />
-        <Home />
-        <Post />
-      </div>
+      <Routes>
+        <Route path="login" element={<Login />} />
+        <Route path="signup" element={<Signup />} />
+
+        <Route
+          path="/"
+          element={
+            <RequireAuth>
+              <Mastercomp />
+            </RequireAuth>
+          }
+        />
+
+        <Route path="/post" element={<Mastercomp />} />
+      </Routes>
     </div>
   );
 }

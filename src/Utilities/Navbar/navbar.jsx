@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { HiOutlineHome } from "react-icons/hi";
+import { AiOutlineLogin } from "react-icons/ai";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -22,7 +23,7 @@ export const Navbar = () => {
         <HiOutlineHome />
       </div>
       <div className="Navbar-icon">
-        <HiOutlineHome />
+        <AiOutlineLogin />
       </div>
     </nav>
   );

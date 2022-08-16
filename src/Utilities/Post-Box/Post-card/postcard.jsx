@@ -13,12 +13,12 @@ export const Postcard = () => {
           <p>War over God feels</p>
         </div>
         <div className="post-caption-tags">
-          <text>#goodgame</text>
-          <text>#goodgame</text>
-          <text>#goodgame</text>
-          <text>#goodgame</text>
-          <text>#goodgame</text>
-          <text>#goodgame</text>
+          <span>#goodgame</span>
+          <span>#goodgame</span>
+          <span>#goodgame</span>
+          <span>#goodgame</span>
+          <span>#goodgame</span>
+          <span>#goodgame</span>
         </div>
         <div className="post-caption-user">
           <img src={image} alt="" />

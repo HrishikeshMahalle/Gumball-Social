@@ -1,0 +1,16 @@
+  .App-header {
+    height: 8vh;
+    width: 95%;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .App {
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }

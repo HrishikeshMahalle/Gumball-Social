@@ -4,11 +4,11 @@ import { Online } from "./Online/online";
 export const Friends = () => {
   return( <div className="Friend-cont">
     <div className="friend-groups">
-    <p>Groups</p>
+    <p className="group-title">Groups</p>
       <Online/> 
     </div>
     <div className="friend-online">
-    <p>Online Friends</p>
+    <p className="friend-online-title">Online Friends</p>
       <Online/>
       <Online/>
       <Online/>

@@ -11,6 +11,12 @@ export const Online = () => {
       <div className="online-name">
         <span>Hrishikesh Mahalle</span>
       </div>
+      <div className="online-signal-on">
+      <span></span>
+      </div>
+      {/* <div className="online-signal-off">
+        <p></p>
+      </div> */}
     </div>
   );
 };

@@ -22,5 +22,31 @@
     flex-direction: column;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+}
+.online-signal-on{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.online-signal-on span{
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.online-signal-off{
+    margin-left: auto;
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+}
+.online-signal-off p{
+    background-color: green;
+    /* height: 10px;
+    width: 10px; */
+    border-radius: 50%;
 }
